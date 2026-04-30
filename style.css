@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*reset básico*/
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+/*mudar as caracteristicas de todo o conteúdo dentro do body*/
+body{
+    text-align: center;
+    background-color: #000505;
+}
+
+header{
+    background-color: #720411;
+    color: #420608;
+    padding: 20px; /*espaço interno*/
+    font-family: "Bowlby One", sans-serif;
+}
+
+nav a{
+    color: white;
+    text-decoration: none; /*tirar a linha debaixo do texto*/
+    display: inline-block; /*ativar o display*/
+    margin: 10px; /*aumentar o espaçamento*/
+    padding: 10px 20px; /*aumentar o espaçamento interno*/ 
+    background-color: rgba(244, 252, 252, 0.322); /*alterar a cor de fundo*/
+    border-radius: 10px; /*arredondar a borda*/
+}
+
+nav a:hover{
+    background-color: rgba(244, 252, 252, 0.815);
+}
+
+.card{
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    padding: 10px;
+    background-color: #8b0415;
+    border-radius: 10px;
+}
+
+.card img{
+    width: 100px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+#personagens h2{
+    font-family: "Bowlby One", sans-serif;
+    color: white;
+}
+
+#personagens{
+    background-image: url(./imagens/banner.jpg);
+    background-repeat: unset;
+    background-position: center;
+    background-size: 260px;
+    /* background-size: mexe no tamanho do plano de fundo/imagem | cover = esticar a imagem | contain = mantenha o tamanho original 
+    background-repet: tira a repetição ou coloca a repetição | no-repet = impede que a imagem se repita
+    backgorund-position: altera a posição da minha imagem */
+}
+
+#personagens p{
+    font-family: "Quantico", sans-serif;
+    color: white;
+}
+
+.card-roubos{
+    display: inline-block;
+    width: 350px;
+    margin: 15px;
+    padding: 10px;
+    background-color: #8b0415;
+    border-radius: 10px;
+}
+
+.card-roubos img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#assaltos{
+    color: white;
+    font-family: "Bowlby One", sans-serif;
+}
