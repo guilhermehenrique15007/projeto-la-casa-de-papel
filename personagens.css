@@ -28,14 +28,15 @@ body{
     flex-wrap: wrap; /*permite que o conteudo se desloque para encaixar com o tamanho da página*/
     gap: 30px; /*espaçamento entre os cards*/
     
-    /*centralizar os cards no eixo principal*/
+
+    /*----centralizar os cards no eixo principal----*/
     justify-content: center;
     /*deixar todos os items "esticados" ou seja do mesmo tamanho*/
     align-items: stretch;
 }
 
-/*alterar o estilo dos cards*/
 
+/*----alterar o estilo dos cards----*/
 .item{
     width: 250px;
     background-color:  #720411;
