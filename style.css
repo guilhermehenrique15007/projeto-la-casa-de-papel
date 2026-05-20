@@ -34,6 +34,11 @@ nav a:hover{
     background-color: rgba(244, 252, 252, 0.815);
 }
 
+
+
+
+/*-----------sessão inicial------------*/
+
 .card{
     display: inline-block;
     width: 250px;
@@ -75,6 +80,18 @@ nav a:hover{
     color: white;
 }
 
+/*---------sessão inicial------------*/
+
+
+
+
+/*---------sessão de assaltos-----------*/
+
+#assaltos{
+    color: white;
+    font-family: "Bowlby One", sans-serif;
+}
+
 .card-roubos{
     display: inline-block;
     width: 350px;
@@ -91,7 +108,20 @@ nav a:hover{
     border-radius: 10px;
 }
 
-#assaltos{
+.card-roubos:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+/*---------sessão de assaltos----------*/
+
+
+
+
+/*---------sessão do rodape-------------*/
+
+#rodape{
+    background-color:  rgba(244, 252, 252, 0.322);
     color: white;
-    font-family: "Bowlby One", sans-serif;
+    height: 30px;
 }

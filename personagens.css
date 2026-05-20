@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*reset básico*/
+*{
+    box-sizing: border-box;
+    margin: 0px; /*altera o distanciamento externo do site*/
+    padding: 0px; /*altera o distanciamento interno do site*/
+}
+
+body{
+    background-color:  #000505; /*altera a cor de fundo*/
+}
+
+#personagem{
+    background-color:  #420608; /*altera a cor de fundo*/
+    padding: 50px 20px; /*altera o distanciamento interno da caixa*/
+}
+
+#personagem h2{
+    color: white; /*altera a cor do texto*/
+    text-align: center; /*centraliza o texto*/
+    font-size: 40px; /*altera o tamanho da letra*/
+    margin-bottom: 40px;
+}
+
+.container-personagem{
+    display: flex; /*ativa o display do tipo flex*/
+    flex-wrap: wrap; /*permite que o conteudo se desloque para encaixar com o tamanho da página*/
+    gap: 30px; /*espaçamento entre os cards*/
+    
+    /*centralizar os cards no eixo principal*/
+    justify-content: center;
+    /*deixar todos os items "esticados" ou seja do mesmo tamanho*/
+    align-items: stretch;
+}
+
+/*alterar o estilo dos cards*/
+
+.item{
+    width: 250px;
+    background-color:  #720411;
+    border-radius: 10px; /*altera o  tipo da borda deixando redonda*/
+    padding: 20px;  /*altera o distanciamento interno da caixa*/
+    display: flex; /*ativa o display domtipo flex*/
+    flex-direction: column;
+}
+
+
+
